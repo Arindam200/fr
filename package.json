@@ -1,0 +1,52 @@
+{
+  "name": "@arindam1729/fr",
+  "version": "0.1.0",
+  "description": "Ask a question about a codebase, get the files that matter. Every file gets a fast relevant/maybe/irrelevant decision from TypeSafe's Jev, streamed live as you type.",
+  "keywords": [
+    "cli",
+    "code-search",
+    "semantic-search",
+    "codebase",
+    "file-search",
+    "llm",
+    "ai",
+    "jev",
+    "typesafe",
+    "developer-tools"
+  ],
+  "homepage": "https://github.com/Arindam200/fr#readme",
+  "bugs": {
+    "url": "https://github.com/Arindam200/fr/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arindam200/fr.git"
+  },
+  "license": "MIT",
+  "author": "Arindam Majumder",
+  "type": "module",
+  "bin": {
+    "fr": "dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "dev": "node src/cli.ts",
+    "demo": "node src/cli.ts \"How are database connections pooled and closed?\" ./sample",
+    "interactive": "node src/cli.ts ./sample",
+    "prepublishOnly": "npm run typecheck && npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.8.0"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

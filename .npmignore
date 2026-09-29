@@ -1,0 +1,12 @@
+# The published package is whitelisted by "files" in package.json (dist/ only).
+# This file is a safety net in case that whitelist is ever removed.
+src/
+sample/
+.github/
+tsconfig.json
+.editorconfig
+.env
+.env.*
+*.tgz
+*.log
+.DS_Store
