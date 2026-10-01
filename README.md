@@ -1,11 +1,35 @@
-# fileroute (`fr`)
 
-[![npm version](https://img.shields.io/npm/v/@arindam1729/fr.svg)](https://www.npmjs.com/package/@arindam1729/fr)
-[![CI](https://github.com/Arindam200/fr/actions/workflows/ci.yml/badge.svg)](https://github.com/Arindam200/fr/actions/workflows/ci.yml)
-[![node](https://img.shields.io/node/v/@arindam1729/fr.svg)](https://nodejs.org)
-[![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+<div align="center">
 
-**Ask a question about a codebase and get back the files that matter.**
+<img src="./assets/fr.gif" alt="fileroute demo" width="720" />
+
+<h1>fileroute (<code>fr</code>)</h1>
+
+<p><b>Ask a question about a codebase and get back the files that matter.</b></p>
+
+<p>
+  <a href="https://www.npmjs.com/package/@arindam1729/fr"><img src="https://img.shields.io/npm/v/@arindam1729/fr.svg" alt="npm version" /></a>
+  <a href="https://github.com/Arindam200/fr/actions/workflows/ci.yml"><img src="https://github.com/Arindam200/fr/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
+  <a href="https://nodejs.org"><img src="https://img.shields.io/node/v/@arindam1729/fr.svg" alt="node" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="license: MIT" /></a>
+</p>
+
+<p>
+  Built with ❤️ by <a href="https://x.com/Arindam_1729"><b>Arindam Majumder</b></a>
+  · <a href="https://x.com/Arindam_1729">Follow on X</a>
+</p>
+
+<p>
+  <a href="#install">Install</a> ·
+  <a href="#quick-start">Quick start</a> ·
+  <a href="#usage">Usage</a> ·
+  <a href="#configuration">Configuration</a> ·
+  <a href="#how-it-works">How it works</a>
+</p>
+
+</div>
+
+---
 
 `fr` sends each file to [TypeSafe's Jev](https://typesafe.ai), a fast "System 1" decision
 model. Jev labels each file **relevant**, **maybe** or **irrelevant** and gives a
@@ -14,7 +38,7 @@ arrive, often while you're still typing.
 
 ```
 ╭────────────────────────────────────────────────────────────────────────╮
-│ ▗▄▄▖       fileroute ➜ v0.1.0                                          │
+│ ▗▄▄▖       fileroute ➜ v0.1.1                                          │
 │ ▐██▙▄▄▄▖   find the files that matter, with Jev                        │
 │ ▐█▘▐█▘▐█▌  ~/code/my-app                                               │
 │ ▝▀▀▀▀▀▀▀▘  10 files indexed · jev-latest                               │
@@ -173,4 +197,4 @@ directly, `npm run typecheck` checks types, and `npm run build` compiles to `dis
 
 ## License
 
-[MIT](LICENSE) © Arindam Majumder
+[MIT](LICENSE) © [Arindam Majumder](https://x.com/Arindam_1729)
